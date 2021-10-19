@@ -4,10 +4,14 @@
     box-sizing: border-box;
     font-family: "Baloo Tamma 2", cursive;
     text-align: center;
-    background: url("/bg.jpeg") no-repeat fixed;
+    background: rgb(8, 8, 8);
     background-size: cover;
 }
 
+
+.card {
+    margin-left: 50px;
+}
 /*Logo*/
 img {
     width: 250px;
@@ -16,7 +20,7 @@ img {
 
 /*Images*/
 .card img {
-    height: 380px;
+    height: 360px;
     width: 100%;
 }
 
