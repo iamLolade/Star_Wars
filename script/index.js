@@ -2,7 +2,6 @@
   //Assigned document from id to variable
   let gridValue = document.getElementById("grid");
 
-
   let errorHandle = document.getElementById("redFlag")
 
   fetch("https://swapi.dev/api/people")
@@ -12,7 +11,7 @@
   for (let i = 0; i < dataArray.length; i++) {
     gridValue.innerHTML += `
       <!--Card_Template-->
-      <div class="col-md-4"><br>
+      <div class="col-md-4 col-sm-12"><br>
         <div class="card" style="width: 18rem;">
             <img src="./image/img${i}.jpeg" class="card-img-top img responsive" alt="starwars_characters">
             <div class="card-body">
