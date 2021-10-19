@@ -1,9 +1,5 @@
-// (function main(){
-  
-
-// }
-
-//Assigned document from id to variable
+(function main(){
+  //Assigned document from id to variable
 let gridValue = document.getElementById("grid")
 
 fetch("https://swapi.dev/api/people")
@@ -46,6 +42,7 @@ for (let i = 0; i < dataArray.length; i++) {
     `
 
 }
-});
+})
 
+})()
 //module.exports = {main}
