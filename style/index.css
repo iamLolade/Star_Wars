@@ -33,6 +33,13 @@ img {
     margin-left: 190px;
 }
 
+/*Error*/
+#redFlag{
+    visibility: hidden;
+    color: white;
+    margin-top: 100px;
+}
+
 /* This only changes this particular animation duration */
 .animate__fadeInUp {
     --animate-duration: 6s;
