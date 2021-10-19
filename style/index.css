@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Baloo Tamma 2", cursive;
     text-align: center;
-    background: url("https://drive.google.com/file/d/14Jqtc47ynPYj_E8aa3O-AUeZ0gmbW6xR/view?usp=drivesdk") no-repeat fixed;
+    background: url("/bg.jpeg") no-repeat fixed;
     background-size: cover;
 }
 
